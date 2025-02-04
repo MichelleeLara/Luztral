@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body{
+  font-family: "Golos Text", serif;
+  background-color: #090319;
+}
