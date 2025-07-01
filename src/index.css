@@ -13,16 +13,23 @@ body {
 .shadow-hero {
   background: linear-gradient(
     to bottom,
-    rgba(124, 35, 255, 0) 0%,  /* Transparencia arriba */
+    0b0825 0%,  /* Transparencia arriba */
     #7b23ff99 22%,               /* Empieza el color sólido */
     #7b23ff99   80%,               /* Termina el color sólido */
-    rgba(124, 35, 255, 0) 100% /* Transparencia abajo */
+    0b0825 100% /* Transparencia abajo */
   ),
   url("/textura.svg");
 
 }
 
-.bg-service{
-  
+.shadow-nav {
+  background: linear-gradient(
+    to bottom,
+    #0b08255e 100%,  /* Transparencia arriba */
+    #0b0825 102%,               /* Empieza el color sólido */
+    #0b0825     100%,               /* Termina el color sólido */
+    #0b0825 100% /* Transparencia abajo */
+  ),
+  url("/textura.svg");
 }
 
