@@ -11,15 +11,7 @@ body {
   border: 1px solid #7C23FF;
 }
 .shadow-hero {
-  background: linear-gradient(
-    to bottom,
-    0b0825 0%,  /* Transparencia arriba */
-    #7b23ff99 22%,               /* Empieza el color sólido */
-    #7b23ff99   80%,               /* Termina el color sólido */
-    0b0825 100% /* Transparencia abajo */
-  ),
-  url("/textura.svg");
-
+  background: linear-gradient(#7c23ff00, #7b23ff99 22%, #7b23ff99 80%, #7c23ff00), url(/textura.svg);
 }
 
 .shadow-nav {
