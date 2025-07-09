@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './sections/navbar.jsx';
+import Navbar from './sections/Navbar.jsx';
 import Home from './pages/Home.jsx';
 import Planes from './pages/Planes.jsx';
 import './index.css';
