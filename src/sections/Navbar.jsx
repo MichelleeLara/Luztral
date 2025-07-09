@@ -96,7 +96,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className='relative z-50 flex items-center justify-center'>
+    <nav className='absolute top-0 left-0 w-full z-50 flex items-center justify-center'>
       <div className='flex items-center justify-between max-w-screen-xl mx-6 w-full py-6'>
         <img
           src='/icon-company.svg'

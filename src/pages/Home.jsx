@@ -21,7 +21,7 @@ export default function Home() {
 
       {/* Contenido que se muestra por encima del fondo */}
       <div className='relative z-10 w-full max-w-screen-xl'>
-        <div className='py-20 text-center flex flex-col items-center justify-center gap-10  min-w-full md:flex-row lg:text-start'>
+        <div className='py-36 pt-40 text-center flex flex-col items-center justify-center gap-10  min-w-full md:flex-row lg:text-start'>
           <div className='flex flex-col gap-10 items-center justify-center  lg:items-start w-full max-w-[525px]'>
             <h1 className='text-4xl mx-4 font- max-w-[575px]  lg:text-[2.5rem] lg:font-extralight'>
               Liberamos de estrés a negocios holísticos y marcas conscientes.
